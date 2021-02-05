@@ -155,7 +155,6 @@ zplugin ice wait"1" lucid
 zplugin light lukechilds/zsh-nvm
 
 source ~/.dot-config/.shell/vars.d/ignore.sh
-source ~/.dot-config/.shell/vars.d/fzf.sh
 
 # Binary release in archive, from GitHub-releases page.
 # After automatic unpacking it provides program "fzf".
