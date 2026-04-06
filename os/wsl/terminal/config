@@ -16,6 +16,14 @@
             "id": "User.paste"
         },
         {
+            "command": "toggleFullscreen",
+            "id": "User.toggleFullscreen"
+        },
+        {
+            "command": "toggleFocusMode",
+            "id": "User.toggleFocusMode"
+        },
+        {
             "command": 
             {
                 "action": "splitPane",
@@ -27,11 +35,32 @@
         {
             "command": "find",
             "id": "User.find"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[13;5u"
+            },
+            "id": "User.sendCtrlEnter"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[13;2u"
+            },
+            "id": "User.sendShiftEnter"
         }
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{a450423a-e570-50f0-9f32-3bac2f23bf9f}",
+    "defaultProfile": "{3ee4c39b-309e-52d8-b52b-83a011a02c10}",
+    "disabledProfileSources": 
+    [
+        "VSDebugConsole",
+        "Windows.Terminal.VisualStudio",
+        "Windows.Terminal.PowershellCore",
+        "Windows.Terminal.Azure"
+    ],
     "keybindings": 
     [
         {
@@ -49,6 +78,18 @@
         {
             "id": "User.splitPane.A6751878",
             "keys": "alt+shift+d"
+        },
+        {
+            "id": "User.toggleFullscreen",
+            "keys": "ctrl+shift+enter"
+        },
+        {
+            "id": "User.sendCtrlEnter",
+            "keys": "ctrl+enter"
+        },
+        {
+            "id": "User.sendShiftEnter",
+            "keys": "shift+enter"
         }
     ],
     "newTabMenu": 
@@ -59,7 +100,10 @@
     ],
     "profiles": 
     {
-        "defaults": {},
+        "defaults": 
+        {
+            "colorScheme": "One Half Dark"
+        },
         "list": 
         [
             {
@@ -69,30 +113,30 @@
                 "name": "Windows PowerShell"
             },
             {
-                "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false,
-                "name": "Command Prompt"
-            },
-            {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": false,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
-            },
-            {
-                "closeOnExit": "always",
+                "closeOnExit": "never",
                 "colorScheme": "One Half Dark",
                 "font": 
                 {
-                    "face": "Ligalex Mono for Powerline",
+                    "face": "BlexMono Nerd Font Mono",
+                    "features": {},
                     "size": 10
                 },
-                "guid": "{a450423a-e570-50f0-9f32-3bac2f23bf9f}",
+                "guid": "{3ee4c39b-309e-52d8-b52b-83a011a02c10}",
                 "hidden": false,
-                "name": "Ubuntu",
+                "name": "Ubuntu-24.04",
                 "source": "Microsoft.WSL",
                 "startingDirectory": "~"
+            },
+            {
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
             }
         ]
     },
