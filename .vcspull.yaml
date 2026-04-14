@@ -30,10 +30,22 @@
   vercel-skills:
     repo: git@github.com:vercel-labs/skills.git
 ~/study/ai/:
+  DeepSpeed:
+    repo: https://github.com/microsoft/DeepSpeed.git
+  Megatron-LM:
+    repo: https://github.com/NVIDIA/Megatron-LM.git
+  Rust-CUDA:
+    repo: https://github.com/Rust-GPU/Rust-CUDA.git
   claude-plugins-official:
     repo: git@github.com:anthropics/claude-plugins-official.git
+  grok-1:
+    repo: https://github.com/xai-org/grok-1.git
+  nccl:
+    repo: https://github.com/NVIDIA/nccl.git
   prompts.chat:
     repo: git@github.com:f/prompts.chat.git
+  pytorch:
+    repo: https://github.com/pytorch/pytorch.git
   repomix:
     repo: git@github.com:yamadashy/repomix.git
   superpowers:
@@ -42,6 +54,10 @@
     remotes:
       tony: git+ssh://git@github.com/tony/tiktoken.git
     repo: git+https://github.com/openai/tiktoken.git
+  triton:
+    repo: https://github.com/triton-lang/triton.git
+  vllm:
+    repo: https://github.com/vllm-project/vllm.git
 ~/study/c++/:
   Catch2:
     repo: git@github.com:catchorg/Catch2.git
