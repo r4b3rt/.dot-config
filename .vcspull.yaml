@@ -1560,8 +1560,8 @@
     repo: https://github.com/chronotope/chrono.git
   clap:
     repo: https://github.com/clap-rs/clap.git
-  close_fds:
-    repo: https://github.com/cptpcrd/close_fds
+  # close_fds:
+  #   repo: https://github.com/cptpcrd/close_fds
   codex:
     repo: https://github.com/openai/codex.git
   console:
@@ -1651,7 +1651,7 @@
   rustup:
     repo: git@github.com:rust-lang/rustup.git
   rye:
-    repo: git+ssh://git@github.com/astral-sh/uv.git
+    repo: https://github.com/astral-sh/rye.git
   sea-orm:
     repo: https://github.com/SeaQL/sea-orm.git
   serde:
@@ -1669,7 +1669,7 @@
   tokio:
     repo: git@github.com:tokio-rs/tokio.git
   tracing:
-    repo: https://github.com/tokio-rs/tracing
+    repo: https://github.com/tokio-rs/tracing.git
   tui-rs:
     repo: git+https://github.com/fdehau/tui-rs.git
   uuid:
