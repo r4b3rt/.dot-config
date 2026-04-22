@@ -26,6 +26,7 @@ export SAM_CLI_TELEMETRY=0
 export GATSBY_TELEMETRY_DISABLED=1
 export NEXT_TELEMETRY_DISABLED=1  # Next.js
 export DISABLE_TELEMETRY=1  # Claude Code
+export GH_TELEMETRY=false  # GitHub CLI
 
 # Python
 export PYTHONSTARTUP="${HOME}/.pythonrc"
